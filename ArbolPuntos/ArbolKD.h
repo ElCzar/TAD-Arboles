@@ -19,7 +19,7 @@ public:
     void setRaiz(NodoKD* nodo);
     NodoKD* getRaiz();
 
-    bool insertar(Punto val);
+    bool insert(Punto val);
 
     void preOrden();
     void preOrden(NodoKD* nodo);
