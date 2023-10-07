@@ -34,7 +34,7 @@ NodoKD* ArbolKD::getRaiz() {
 }
 
 
-bool ArbolKD::insertar(Punto val) {
+bool ArbolKD::insert(Punto val) {
     if(this->isVacio()) {
         NodoKD* nodo = new NodoKD(val);
         this->raiz = nodo;
